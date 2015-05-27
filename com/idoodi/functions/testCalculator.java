@@ -26,5 +26,12 @@ public class testCalculator {
 		Calculator calculate = new Calculator();
 		assertEquals("4 * 6 = 24", 11, calculate.add(4, 6));
 	}
+	
+	@Test
+	public void test_divide() {
+		
+		Calculator calculate = new Calculator();
+		assertEquals("40 / 4 = 10", 10, calculate.divide(40, 4));
+	}
 
 }

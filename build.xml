@@ -13,7 +13,7 @@
     <path refid="classpath.base" />
   </path>
 
-  <target name="test" depends="run, clean" />
+  <target name="test" depends="clean, run" />
 
   <target name="clean">
     <delete>
